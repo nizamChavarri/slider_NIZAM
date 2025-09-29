@@ -1,4 +1,4 @@
-package org.example;
+package es.nizam;
 
 public class Lanzador {
 
