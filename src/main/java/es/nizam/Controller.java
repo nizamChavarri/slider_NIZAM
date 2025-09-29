@@ -1,4 +1,4 @@
-package org.example;
+package es.nizam;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Slider;
