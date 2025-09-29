@@ -1,4 +1,4 @@
-package org.example;
+package es.nizam;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -12,7 +12,7 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("color_slider.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/FXML/color_slider.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), MIN_WIDTH, MIN_HEIGHT);
         stage.setTitle("Selector de Color RGB");
         stage.setScene(scene);
